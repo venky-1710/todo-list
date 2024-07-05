@@ -2,7 +2,7 @@
 
 A simple and elegant Todo List application built with Flask.
 
-![Todo List App](todos.png)
+![Todo List App]([todos.png](https://drive.google.com/file/d/1j7X422MhIfVc6EjBMUJPiBVk5ASdEBAz/view?usp=sharing))
 
 ## Features
 
