@@ -1,0 +1,98 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: url('todos.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#input-todo {
+  width: 250px;
+  height: 25px;
+  font-size: 1.25rem;
+}
+
+#add-todo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5rem;
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.todo-container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.todo {
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.actions > form {
+  display: inline;
+}
+
+.actions > form > button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.todo {
+  background-color: lightsteelblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+}
+
+.todo.completed {
+  background-color: #c6efce; /* greenish background color to indicate completion */
+  text-decoration: line-through; /* strike through the text to indicate completion */
+}
+
+.actions > form > input[type="checkbox"] {
+  width: 22px;
+  height: 20px;
+  margin: 0 10px;
+  accent-color: lightgreen;
+  border: 2px solid #f40707;
+  border-radius: 30%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.actions > form > input[type="checkbox"]:checked {
+  background-color: rgb(130, 238, 130);
+  border-color: lightgreen;
+}
