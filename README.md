@@ -22,7 +22,7 @@ A simple and elegant Todo List application built with Flask.
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/todo-list-flask.git
+   https://github.com/venky-1710/todo-list.git
    ```
 2. Navigate to the project directory:
    ```sh
